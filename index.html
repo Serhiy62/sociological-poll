@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sociological-poll</title>
+    <link rel="stylesheet" href="text/css" type="text/css" />
+</head>
+<body>
+   
+    <header>
+        <h3>Evaluation web site - Site work User rating</h3>
+    </header>
+    <br>
+    <nav>Hello! Please take a few minutes of your time to fill out the following questions.</nav><br>
+    
+       <section>
+           <form>
+               <h4>How difficult is it to navigate on our website?</h4>
+               <hr>
+               <label for="subject">1.Very simple</label>
+               <input type="radio" name="r" value="radio" checked/><br>
+               <label for="subject">2.Fine</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <label for="subject">3.Rather difficult</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <label for="subject">4.Very difficult</label>
+               <input type="radio" name="r" value="radio"/><br>
+                <hr>
+            </form>
+             <form>
+                 <h4>How would you rate the appearance of your web site?</h4>
+               <hr>
+               <label for="subject">1.Very good</label>
+               <input type="radio" name="r" value="radio" checked/><br>
+               <label for="subject">2.Good</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <label for="subject">3.Normal</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <label for="subject">4.Bad</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <hr>
+              </form>
+             <form>
+                <h4>Are you generally satisfied with our website?</h4>
+               <hr>
+               <label for="subject">1.Very satisfied / flax</label>
+               <input type="radio" name="r" value="radio" checked/><br>
+               <label for="subject">2.Dissatisfied / flax</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <label for="subject">3.The average content / flax</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <label for="subject">4.Rather satisfied / flax</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <hr>
+             </form>
+             <form>
+                <h4>Would you recommend your website to others?</h4>
+               <hr>
+               <label for="subject">1.Probably yes</label>
+               <input type="radio" name="r" value="radio" checked/><br>
+               <label for="subject">2.I dont knowx</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <label for="subject">3.Probably not</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <label for="subject">4.Definitely not</label>
+               <input type="radio" name="r" value="radio"/><br>
+               <hr>
+             </form>
+       </section>
+    
+    
+    
+    <footer>
+        <strong>First you need to enter the data according to the forms. Your answer is very important for us!</strong><hr>
+
+    <form action="https://formspree.io/buk.serhiy@gmail.com"
+      method="POST">
+           <label for="subject">Subject Message</label><br>
+           <input type="text" id="subject" name="subject" placeholder="Subject Message"/><br>
+           <label for="email">Enter your Email</label><br>
+           <input type="email" id="email" name="email" placeholder="adress@example.com"/><br>
+           <label for="name">Enter your name:</label><br>
+           <input type="text" id="name" name="name" placeholder="Enter your name"/><br>
+           <label for="message">Enter your message</label><br>
+           <textarea  placeholder="Enter your message" id="message" name="message"></textarea>
+           <input type="submit" value="Send" id="send" name="send" /><br>
+        </form>
+    </footer>
+   
+</body>
+</html>
